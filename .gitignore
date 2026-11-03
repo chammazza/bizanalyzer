@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.streamlit/secrets.toml
+# never commit real customer data
+*.xlsx
+*.xls
+*.csv
+!examples/*
